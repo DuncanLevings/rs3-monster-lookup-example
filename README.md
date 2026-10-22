@@ -43,8 +43,17 @@ dev_plugins/
   monster-lookup-example/
 ```
 
-The example manifest references those local dependency names. Published consumers should use
-mod.io dependency ids instead; Monster Data Core's listing id is `6471519`.
+The example manifest references those local dependency names. Published consumers can use
+these mod.io listing ids:
+
+| Dependency | mod.io ID |
+| --- | --- |
+| Monster Lookup | `6468042` |
+| Monster Data Core | `6471519` |
+| PrettyUI | `6398181` |
+
+For example, `"MonsterLookup": 6468042` imports the Monster Lookup API under the same alias.
+The demo manifest stays configured for local development.
 
 In the game console:
 
