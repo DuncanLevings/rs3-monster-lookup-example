@@ -1,0 +1,22 @@
+{
+  "runtime.version": "Lua 5.4",
+  "runtime.path": [
+    "?.lua",
+    "?/init.lua"
+  ],
+  "diagnostics.globals": [
+    "MonsterLookup",
+    "MonsterDataCore",
+    "prettyui",
+    "ui",
+    "id",
+    "Event",
+    "GameState",
+    "PluginShutdown",
+    "log"
+  ],
+  "workspace.checkThirdParty": false,
+  "workspace.library": [
+    "../monster-data-core/types"
+  ]
+}
